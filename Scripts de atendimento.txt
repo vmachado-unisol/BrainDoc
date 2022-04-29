@@ -1,0 +1,39 @@
+SCRIPTS DE ATENDIMENTO
+
+ENCERRAR CHAMADO
+
+3 TENTATIVAS DE CONTATO APÓS MANDAR E-MAIL SINALIZANDO QUE EM 24 HORAS O CHAMADO SERÁ AUTOMATICAMENTE ENCERRADO.
+_________________________________________________________________________________________________________________
+TENTATIVA DE CONTATO (ANDAMENTO AO CHAMADO)
+
+Tentativa de contato com XXX através dos telefones XXXXX sem sucesso, por gentileza, entre em contato com o nosso SUPORTE através dos telefones (11) 3855-2020 / 3855-2021 a fim de darmos andamento à este chamado.
+
+Sigo no aguardo e à disposição.
+
+At.te
+Vitor Machado 
+_________________________________________________________________________________________________________________
+TENTATIVA DE CONTATO (VALIDAR O CHAMADO)
+
+Tentativa de contato com XXX através dos telefones XXXXX sem sucesso, por gentileza, entre em contato com o nosso SUPORTE através dos telefones (11) 3855-2020 / 3855-2021 a fim de validarmos  este chamado.
+
+Sigo no aguardo e à disposição.
+
+At.te
+Vitor Machado 
+_________________________________________________________________________________________________________________
+
+ENVIO DE SCRIPT
+
+Bom Dia ou Boa tarde,
+
+Segue no link abaixo o download do SCRIPT XXXXXX gerado com o objetivo de sanar o erro mencionado a cima; por gentileza, execute o arquivo no banco de HOMOLOGAÇÃO (xxx_nome_banco_xxx) e verifique a correção.
+
+XXXXXXX_LINK_XXXXXXXX
+
+Obs.: 
+
+Sigo no aguardo de sua validação e à disposição.
+
+At.te
+Vitor Machado

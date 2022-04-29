@@ -1,0 +1,44 @@
+LIBERAÇÃO DE ENTRADA DE VEÍCULO (quando duas máquinas tentam alterar e travam o processo - Corporate 63)
+
+SELECT * 
+FROM EntradaVeiculo 
+WHERE RegControle = --número entrada de veículo
+
+UPDATE EntradaVeiculo 
+SET FlagSituacaoVeiculo = NULL, 
+	NetAddress = NULL, 
+	HostName = NULL 
+WHERE RegControle = --número da entrada de veículo
+
+** CASO A VERSÃO DO CORPORATE SEJA A 64, HÁ UM BOTÃO DE LIBERAÇÃO
+________________________________________________________________________________________________________________________
+
+CONSULTA DO LOG DO AUTOLOAD x Requisição (*nem todos registros vinculados a requisição estão também no CodCheckList em questão*)
+
+USE CorporateTerminais
+SELECT *
+FROM AutoloadLog
+WHERE RegControle = 'nº do Registro da Entrada de Veículo (CCD)'
+________________________________________________________________________________________________________________________
+
+COMANDO PARA SABER QUAL FOI A ÚLTIMA PROC RODADA NO BANCO
+
+SELECT   * 
+FROM 	 SysObjects 
+ORDER BY CrDate DESC 
+________________________________________________________________________________________________________________________
+
+COMANDO PARA DESCOBRIR IP INTERNO DO BANCO E CAMINHO DA REDE
+
+SELECT @@SERVERNAME,
+ CONNECTIONPROPERTY('net_transport') AS net_transport,
+ CONNECTIONPROPERTY('protocol_type') AS protocol_type,
+ CONNECTIONPROPERTY('auth_scheme') AS auth_scheme,
+ CONNECTIONPROPERTY('local_net_address') AS local_net_address,
+ CONNECTIONPROPERTY('local_tcp_port') AS local_tcp_port,
+ CONNECTIONPROPERTY('client_net_address') AS client_net_address
+________________________________________________________________________________________________________________________
+
+SisLogTabela - ESTUDAR - LOG DE TODAS AS TABELAS DO BANCO 
+________________________________________________________________________________________________________________________
+

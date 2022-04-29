@@ -1,0 +1,4 @@
+ATALHOS
+
+Ferramenta de Captura -> Windows + Shift + S
+

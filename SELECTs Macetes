@@ -1,0 +1,21 @@
+SELECT / DATETIME - DATEPART = função que retorna um inteiro que representa o datepart especificado do argumento date especificado.
+
+SELECT * 
+FROM   --NOME_TABELA 
+WHERE  DATEPART(YY, NOME_COLUNA) AND -- para definir o YEAR(ano);
+	   DATEPART(QQ, NOME_COLUNA) AND -- para definir o QUARTER(trimestre);
+	   DATEPART(MM, NOME_COLUNA) AND -- para definir o MONTH(mês);
+	   DATEPART(DY, NOME_COLUNA) AND -- para definir o DAYOFYEAR(dia do ano);
+	   DATEPART(DD, NOME_COLUNA) AND -- para definir o DAY(dia);
+	   DATEPART(WK, NOME_COLUNA) AND -- para definir o WEEK(semana);
+	   DATEPART(DW, NOME_COLUNA) AND -- para definir o WEEKDAY(dia da semana);
+	   DATEPART(HH, NOME_COLUNA) AND -- para definir o HOUR(hora);
+	   DATEPART(MI, NOME_COLUNA) AND -- para definir o MINUTE(minuto);
+	   DATEPART(SS, NOME_COLUNA) AND -- para definir o SECOND(segundo);
+	   DATEPART(MS, NOME_COLUNA) AND -- para definir o MILLISECOND(milisegundo);
+	   DATEPART(MCS, NOME_COLUNA) AND -- para definir o MICROSECOND(microsegundo);
+	   DATEPART(NS, NOME_COLUNA) AND -- para definir o NANOSECOND(nanosegundo);
+	   DATEPART(TZ, NOME_COLUNA) AND -- para definir o TZOFFSET(diferença de fuso horário (PESQUISAR!));
+	   DATEPART(ISOWK, NOME_COLUNA) AND -- para definir o ISO_WEEK(PESQUISAR!).
+	   
+_____________________________________________________________________________________________________________________________________________   

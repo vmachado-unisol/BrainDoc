@@ -1,0 +1,35 @@
+Memorando
+
+OBDC: unicontrol
+Banco: UniControl
+Usuário: Corporate
+Senha: AdminCorporate
+Servidor: r2d2,14335
+
+Logins
+
+Desktop
+host: DKT01DS-0034
+user: vmachado
+senha: @Vima21=
+
+Google Suite
+vmachado@unisolution.com.br
+senha:
+
+UniControl
+vmachado
+senha:
+
+CecWeb
+vmachado
+https://portal2.unisolution.com.br/CecWeb
+senha:
+
+Team Viewer
+vmachado@unisolution.com.br
+senha:
+
+VPN Bunge
+bbr\ct009688
+senha: Unisol*2020

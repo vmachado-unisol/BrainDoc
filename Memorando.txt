@@ -1,0 +1,63 @@
+Memorando
+
+RAMAL 327
+
+** sisversao = Na query do banco, para descobrir a versão do executável usada
+** CTRL + ALT + ANDRE = Habilita campo Peso da balança para ser inserido manualmente
+** As versões de atualização de executáveis devem ficar somente 10 dias corridos no Google Drive (comunicar o cliente) 
+
+admincorporate
+* EXPORTANDO CONFIGURAÇÕES ODBC *
+
+1 > Abra o regedit e caminhe até a chave:
+    HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI
+2 > Posicionado na chave, vá em Arquivo > Exportar;
+3 > Salve o arquivo (ex.: config_odbc.reg)
+4 > Para exportar as configurações definidas pelo usuário,  posicione-se na chave abaixo:
+    HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBCINST.INI e repita o procedimento de exportação mencionado acima, porém grave o
+    arquivo com outro nome (ex.: config_user_odbc.reg).
+
+* IMPORTANDO CONFIGURAÇÕES ODBC *
+
+1 > Posicione na chave de configuração do odbc:
+    HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI
+2 > Vá em Arquivo > Importar e selecione o reg (config_odbc.reg)
+3 > Posicione na chave de configuração do usuário do odbc:
+    HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBCINST.INI
+4 > Vá em Arquivo > Importar e selecione o reg (config_user_odbc.reg)
+
+**
+Contatos Clientes Celular
+
+CECWEB
+
+OBS: Chamados com problemas de Desenvolvimento -> Fila Ajustes Desenvolvimento (Responsável: Ana)
+
+LOCALIZAÇÕES DAS FILAS
+
+- AGUARDANDO APROVAÇÃO
+- AGUARDANDO DEFINIÇÃO
+- AGUARDANDO GERAÇÃO DE VERSÃO
+- AGUARDANDO HOMOLOGAÇÃO CLIENTE
+- AGUARDANDO LIB VERSÃO
+- AGUARDANDO RETORNO DO CLIENTE
+- AGUARDANDO TESTE
+- AJUSTE
+- ALINHAMENTO DE PROJETO
+- ANÁLISE COMERCIAL
+- ANÁLISE COMERCIAL (ANTIGO)
+- ANÁLISE SUPORTE
+- DESENVOLVIMENTO (contato responsável se usar: Ana)
+- DESENVOLVIMENTO WEB
+- DISPONÍVEL PARA O CLIENTE
+- EM ANÁLISE
+- EM ATENDIMENTO
+- EM DESENVOLVIMENTO
+- INFRAESTRUTURA
+- LIBERADOS
+- PROJETO EXECUTIVO
+- PROJETOS
+- RETORNO DE AJUSTE
+- SUPORTE
+- TESTE CONCLUÍDO
+- VISITA

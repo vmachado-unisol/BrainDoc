@@ -1,0 +1,10 @@
+ERROS E BUGS
+
+Cadastro Geral > Cadastro > Navio/Embarcação > Arquivo > Imprimir = Não imprimi
+Teste na Cattalini Homo (versão 3.0.64)
+
+Cadastro Geral > Cadastro > Banco se Ordenar novamente por código (default) ou descrição, aparece outro banco que não constava na consulta inicial (BANCO NACIONAL).
+Teste na Cattalini Homo (versão 3.0.64)
+
+Cadastro Geral > Cadastro > Colaboradores > Imprimir = o campo EMail deveria ser E-mail
+

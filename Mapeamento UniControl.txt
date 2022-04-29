@@ -1,0 +1,1670 @@
+MAPEAMENTO UNICONTROL
+
+GERAIS
+	> Cadastro Geral	
+		> Cadastros			
+			> Cadastros
+				> Cadastro de Terceiros
+					Após selecionado, abre-se um filtro para consulta de cadastros, com um filtro que utiliza o nome Fantasia como parâmetro de busca.
+					
+					Ações: 
+						   * ARQUIVO
+
+						   > Novo (Insert) = cria um novo cadastro de terceiro no sistema;
+						   > Alteração = altera o determinado cadastro selecionado no campo de busca;
+						   > Exclusão (Del) = exclui o determinado cadastro selecionado no campo de busca;
+						   > Propriedades (F12) = informa o(s) resposável(eis), a data e a hora da inlcusão e/ou alteração do cadastro, juntamente com o log 						      dessas informações;
+						   > Sair (CTRL + X) = fecha a tela de consulta de cadastros.
+
+						   * MOVIMENTO
+
+						   > Primeiro Registro = caminha para o primeiro registro da seleção;
+						   > Registro Anterior = caminha para o primeiro registro anterior do atual selecionado;
+						   > Próximo Registro = caminha para o primeiro registro posterior do atual selecionado;
+						   > Último Registro = caminha para o último registro da seleção;
+							   > Atualização = atualiza a seleção de busca caso tenha alterado algum parâmetro de busca;
+							   > Localizar (F11) = faz uma nova consulta no cadastro de terceiros (todos os registros) e seleciona no campo de busca, caso esteja
+								   dentro do range de cadastros selecionados na primeira filtragem;
+						   > Filtro = atualiza o filtro da busca inicial no cadastro de terceiros.
+
+						   * ORDEM
+							
+						   > Retorna um campo para parametrizar (organizar) a busca atual no cadastro de terceiros.
+
+						   * FICHA TÉCNICA (último botão com ícone da guia - caderno, lápis e mão amarela)
+						??????????????????????????????????????????????????????????????????????????????
+
+				> Navio / Embarcação
+
+						   * ARQUIVO
+
+						   > Novo (Insert) = cria um novo cadastro de navio/embarção no sistema;
+						   > Alteração = altera o determinado cadastro selecionado no campo de busca;
+						   > Exclusão (Del) = exclui o determinado cadastro selecionado no campo de busca;
+						   > Propriedades (F12) = informa o(s) resposável(eis), a data e a hora da inlcusão e/ou alteração do cadastro, juntamente com o log 						      dessas informações;
+						   > Imprimir (CTRL+P) = gera a impressão da consulta do cadastro de navio/embarção;
+						 (** NÃO FUNCIONA TESTE NA VERSÃO 3.0.64 - Cattalini Homo 06/12/2021 **)
+						   > Sair (CTRL + X) = fecha a tela de consulta de cadastros de navio/embarção.
+
+						   * MOVIMENTO
+
+						   > Primeiro Registro = caminha para o primeiro registro da seleção;
+						   > Registro Anterior = caminha para o primeiro registro anterior do atual selecionado;
+						   > Próximo Registro = caminha para o primeiro registro posterior do atual selecionado;
+						   > Último Registro = caminha para o último registro da seleção;
+							   > Atualização = atualiza a seleção de busca caso tenha alterado algum parâmetro de busca;
+
+						   * ORDEM
+							
+						   > Retorna um campo para parametrizar (organizar) a busca atual no cadastro de navio/embarção.
+
+				> Bancos
+
+						   * ARQUIVO
+
+						   > Novo (Insert) = cria um novo cadastro de banco no sistema;
+						   > Alteração = altera o determinado cadastro selecionado no campo de busca;
+						   > Exclusão (Del) = exclui o determinado cadastro selecionado no campo de busca;
+						   > Propriedades (F12) = informa o(s) resposável(eis), a data e a hora da inlcusão e/ou alteração do cadastro, juntamente com o log 						      dessas informações;
+						   > Imprimir (CTRL+P) = gera a impressão da consulta do cadastro de bancos; 
+						   > Sair (CTRL + X) = fecha a tela de consulta de cadastros de bancos.
+
+						   * MOVIMENTO
+
+						   > Primeiro Registro = caminha para o primeiro registro da seleção;
+						   > Registro Anterior = caminha para o primeiro registro anterior do atual selecionado;
+						   > Próximo Registro = caminha para o primeiro registro posterior do atual selecionado;
+						   > Último Registro = caminha para o último registro da seleção;
+							   > Atualização = atualiza a seleção de busca caso tenha alterado algum parâmetro de busca;
+
+						   * ORDEM
+							
+						   > Retorna um campo para parametrizar (organizar) a busca atual no cadastro de terceiros.
+						 (** BUG - se ordenar novamente por código (default) ou descrição, aparece outro banco que não constava na consulta inicial (BANCO
+						 NACIONAL) TESTE NA VERSÃO 3.0.64 - Cattalini Homo 06/12/2021 **)	
+			
+				> Colaboradores
+
+						   * ARQUIVO
+
+						   > Novo (Insert) = cria um novo cadastro de colaboradores no sistema;
+						   > Alteração = altera o determinado cadastro selecionado no campo de busca;
+						   > Exclusão (Del) = exclui o determinado cadastro selecionado no campo de busca;
+						   > Propriedades (F12) = informa o(s) resposável(eis), a data e a hora da inlcusão e/ou alteração do cadastro, juntamente com o log 						      dessas informações;
+						   > Imprimir (CTRL+P) = gera a impressão da consulta do cadastro de colaboradores;
+						   > Sair (CTRL + X) = fecha a tela de consulta de cadastros de colaboradores.
+
+						   * MOVIMENTO
+
+						   > Primeiro Registro = caminha para o primeiro registro da seleção;
+						   > Registro Anterior = caminha para o primeiro registro anterior do atual selecionado;
+						   > Próximo Registro = caminha para o primeiro registro posterior do atual selecionado;
+						   > Último Registro = caminha para o último registro da seleção;
+							   > Atualização = atualiza a seleção de busca caso tenha alterado algum parâmetro de busca;
+
+				> Conta Corrente
+
+						   * ARQUIVO
+
+						   > Novo (Insert) = cria um novo cadastro de conta corrente no sistema;
+						   > Alteração = altera o determinado cadastro selecionado no campo de busca;
+						   > Exclusão (Del) = exclui o determinado cadastro selecionado no campo de busca;
+						   > Propriedades (F12) = informa o(s) resposável(eis), a data e a hora da inlcusão e/ou alteração do cadastro, juntamente com o log 						      dessas informações;
+						   > Sair (CTRL + X) = fecha a tela de consulta de cadastros de conta correntes.
+
+						   * MOVIMENTO
+
+						   > Primeiro Registro = caminha para o primeiro registro da seleção;
+						   > Registro Anterior = caminha para o primeiro registro anterior do atual selecionado;
+						   > Próximo Registro = caminha para o primeiro registro posterior do atual selecionado;
+						   > Último Registro = caminha para o último registro da seleção;
+							   > Atualização = atualiza a seleção de busca caso tenha alterado algum parâmetro de busca;
+							   
+				> Cotações
+				> Filiais
+				> Moedas
+				> Operações
+				> Materiais
+			
+			> Tabelas Cadastro
+				> Bicos
+				> País
+				> Centro de Distribuição
+				> Códigos Cnae
+				> Grupo de Cliente
+				> Departamentos
+				> Estados
+				> Município
+				> Origem do Cliente
+				> Ramo Cliente
+				> Ramo Fornecedor
+				> Setor
+				> Situação Cliente
+				> Situação do Fornecedor
+				> Tipo de Colaborador
+				> Tipo de Terceiro
+			
+			> Tabelas Financeiro
+				> Classificação Financeira
+				> Código Receita
+				> Motivos de Cancelamento de Título
+				> Pontualidade
+				> Situação de Baixa de Títulos
+				> Situação de Contas a Pagar
+				> Tipos de Cobrança
+				> Tipos de Documento
+				> Motivos de Recusa Crédito
+			
+			> Tabelas Materiais
+				> Agrupamento de Material
+				> Aplicação
+				> Documentos Movimentação Estoque
+				> Embalagem
+				> Royalties
+				> Tabela de Preço
+				> Tipo de Material
+				> Unidade de Medida
+			
+			> Tabelas Fiscal
+				> Classificação Fiscal
+				> Imposto por Município/Serviço
+				> Modelo de Nota
+				> Natureza de Operação
+				> Procedência
+				> Redução de Icms por Regime de Operação
+				> Regime de Operação
+				> Séries de Nota
+				> Imposto Simples Federal
+			
+			> Tabelas Vendas
+				> Condição de Pagamento
+				> Mensagens do Destinatário
+				> Região de Vendas
+				> Situação p/ Exclusão de Pedido
+				> Supervisor
+				> Grupo Cond. Pagamento
+				> Forma de Pagamento
+			
+			> Tabelas Contabilidade
+				> Centro de Custo
+				> Conta Contábil
+				> Plano de Compras
+				> Histórico Padrão 
+			
+			> Tabelas Compras
+				> Grupo de Compra
+				> Motivo de Baixa de Pedido de Compra
+				> Motivo Baixa de Solicitação de Compra
+				> Tipo de Solicitação
+			
+			> Tabelas Genéricas
+				> Configuração de Etiqueta
+				> Configuração de Relatórios
+				> Mensagem
+				> Modelo de Etiqueta
+			
+			> Tabelas Courrier
+				> Tabela de Base
+			
+			> Tabelas Storage
+				> Controle
+					> Doc Movimentação Prod Liberados
+					> Doc Movimentação Prod Sem Liberação
+					> Regime Aduaneiro
+				> Veículos
+					> Pátio
+					> Situação do Veículo
+					> GL Densidade
+					> GI Temperatura
+					> Motivo Atraso Veículo
+					> Local de Operação
+					> Cartão Veículo
+					> Check in
+					> Tipo de Documento
+					> Itens de Inspeção
+				> Balança
+					> Códigos de Movimentação
+					> Doc Mov Balança
+					> Plataforma
+					> Localização de Plataforma
+					> Tipos de Transporte
+					> Lotes do Lacre
+				> Estoque Físico
+					> Material de Construção
+					> Revestimento
+					> Localização
+				> Operação
+					> Porto
+					> Tipo de Laudo
+					> Estrutura do Laudo
+					> Ocorrências do Laudo
+					> Viagem Navio
+					> Ce Mercante
+				> Comercial
+					> Tipo de Contrato
+					> Tipo de Período
+			
+			> Tabelas Administração
+				> Situação do Profissional
+			
+			> Sair Ctrl+X
+		
+		> Consultas
+			> Consulta Destinatário
+		
+		> Relatórios
+			> Cadastro de Terceiros
+			> Cotações
+			> Validação do Cadastro
+		
+		> Mala Direta		
+			> Cartas
+			> Mala Direta
+				> Seleção por Critérios
+				> Seleção Manual 
+			> Etiquetas
+				> Seleção por Critérios
+				> Seleção Manual 
+			> Etiqueta Avulsa
+		
+		> Ferramentas
+			> Rotinas de Apoio
+				> Substituir Vendedor no Cadastro
+				> Agrupar Destinatário
+			> Ajuda
+			> Habilitas Menu
+			> UniSolution E-mail
+			> Sobre o Cadastro Geral
+		
+		> Configurações	
+			> Cadastros
+				> Cadastros
+					> Colaborador
+					> Email
+					> Grupo (Grupo de Usuários)
+					> Permissões
+					> Senhas do Cliente
+					> Usuários
+				> Tabelas
+					> Departamentos
+					> Tipo de Colaborador
+				> Sair Ctrl+X
+			
+			> Configurações
+				> Parâmetros Gerais
+				> Impostos
+				> Séries de Notas
+				> Formulários
+				> Sistemas
+					> Controle de Acesso
+					> Contabilidade
+					> Financeiro
+					> Comercial
+					> Materiais
+					> Transportes
+					> Storage 
+					> Fiscal
+					> Administração
+					> Logística
+				> GMail
+					> Relatórios
+					> Mensagem
+					> Mensagem Especial
+					> Permissões Coletor 
+			
+			> Auditoria
+				> Agente do Sistema
+				> Alterações
+				> Relatório de Permissões
+				> Log de Acesso
+				> Tentativa de Acesso
+				> Log de Usuarios
+				> Log de Pesagem / Classificação
+				> Log de Serviços
+			
+			> Ferramentas
+				> Rotinas de Apoio
+					> GMail
+					> GRadar
+					> Limpar LOG
+					> Linha de Comando
+					> Palavra Chave
+				> Ajuda
+				> Habilitar Menu
+				> UniSolution eMail
+				> Sobre o Configurações do Sistema
+		
+		> Controle Acesso	
+			
+			> Cadastros
+				> Pessoas
+					> Colaboradores
+					> Visitantes
+					> Motoristas
+					> Autoridade
+				> Crachá
+				> Tabelas
+					> Departamento
+					> HandKey
+					> Tipo de Pessoa
+					> Tipo de Crachá
+					> Tipo de Documento
+					> Rota
+				> Permissões
+					> Tipo de Crachá
+					> Pessoa
+					> Rota
+				> Equipamentos
+					> Controladoras
+					> Planta
+					> Rede
+					> Setor
+				> Tabelas Genéricas
+					> Configuração de Etiqueta
+					> Modelo de Etiqueta
+				> Sair Ctrl+X
+			
+			> Movimentos
+				> Entrega de Crachás
+					> Visitante
+					> Colaborador
+					> Motorista
+					> Autoridade
+				> Devolução de Crachá
+				> Agendamento
+				> Ponto
+					> Manutenção
+					> Geração do Ponto
+				> Vistoria
+				> Inventário de Crachás
+				> GAcesso
+					> Carregar Controladora
+				> BDCC
+			
+			> Consulta
+				> Consulta Crachá
+				> Histórico de Acesso
+			
+			> Relatórios
+				> Motorista
+					> Movimentação
+					> Por Transportadora
+				> Visitante
+					> Movimentação
+					> Por Empresa
+				> Colaboradores
+				> Agendamento
+				> Movimentação
+					> Movimentação por Planta
+					> Movimentação de Pessoas
+					> Relatório de Passagem
+					> Relatório de Burla
+				> Gerenciais
+					> Permissão por Pessoa
+					> Permissão por Tipo
+					
+			> Ferramentas
+				> Rotinas de Apoio
+					> Configurações
+					> Agrupar Cadastro
+					> Testar BDCC
+					
+		> Mensagens
+			Ao selecionar, abre o módulo na seção "Mostrar ícones ocultos" (bandeja - seta para cima na barra de ferramentas do Windows. A ferramenta tem como função enviar e-mails e mensagens internas no UniControl.
+		
+		> Portal
+			> Cadastros
+				> Login Receita
+				> Login Portal
+				> Tabelas
+					> Portolog
+					> Localização Plataforma
+					> Plataforma
+					> Tempo de Operação(Veículo)
+					> Tempo de Operação(Veículo/Produto)
+					> Turnos
+					> Escala de Turno
+					> Bloqueio de Agenda
+					> Alinhamento de Plataformas
+					> Tipo Veículo/Cliente
+				> Sair Ctrl + X
+			
+			> Movimentos
+				> Consultas do Login
+				> Clientes do Login
+				> Produto do Login
+				> Depósitos do Login
+				> Sincronização
+					> Receber consultas do Portal
+					> Enviar dados ao Portal
+				> Encerrar Programação
+				> Mensagens
+				> Janela Operacional
+				> Programação da Agenda
+				> Ocupação Média
+				> Reserva
+				
+			> Relatórios
+				> Configurações do Login
+				> Histórico de Acesso
+				> Usuários
+			
+			> Ferramentas
+				> UniSolution eMail
+				> Rotinas de Apoio
+					> Receber Todos os Dados
+					> Configurações
+					> Agendamento
+					> Consulta Agendamento
+					> Ajuste Agendamentos
+				> Habilitar Menu
+				> Ajuda
+				> Sobre o Portal
+
+
+FINANCEIRO
+
+	> Contas a Receber
+		> Cadastros
+			> Classificação Financeira
+			> Previsão de Receitas
+			> Contas a Receber
+			> Cotações
+			> Conta Corrente
+			> Tabelas
+				> Motivos do Cancelamento
+				> Pontualidade
+				> Situação de Baixas
+				> Tipos de Cobrança
+				> Tipos de Documento
+			> Sair Ctrl+X
+	
+		> Movimentos
+			> Cheque de Garantia
+				> Manutenção
+				> Baixa de Cheque
+				> Cancelamento de Baixa
+				> Estorno de Baixa
+			> Recebimento de Títulos
+			> Bordero de Recebimento
+				> Emissão
+				> Cancelamento
+			> Acordo de Pagamento
+			
+		> Consultas
+			> Consulta por Cliente
+			
+		> Relatórios
+			> Cadastro
+				> Cotações
+			> Gerenciais
+				> Documentos em Aberto
+				> Documentos Baixados
+				> Documentos do Cliente
+				> Resumo em Aberto
+				> Documentos Excluídos
+				> Cheque de Garantia
+				> Borderô Cobrança
+			> Movimentos
+				> Incluídos
+				> Baixados
+			> Carta de Cobrança
+				> Vendedor
+				> Cliente
+			> Comissões
+				> Detalhado
+				> Resumido
+		
+		> Ferramentas
+			> Rotinas de Apoio
+				> Geração para SCI
+				> Configurações
+			> Ajuda
+			> UniSolution eMail
+			> Sobre o Contas a Receber  
+				
+	> Contas a Pagar
+		> Cadastros
+			> Previsão de Despesas
+			> Contas a Pagar
+			> Acordo de Pagamento
+			> Cotações
+			> Bancos
+			> Tabelas
+				> Tipos de Documento
+				> Situação de Títulos a Pagar
+				> Códigos da Receita
+				> Tipo de Adiantamento
+			> Sair Ctrl+X
+			
+		> Movimentos
+			> Aprovação de Documentos
+			> Autorização de Pagamento
+			> Pagamento de Títulos
+			> Lançamento de Faturas
+			> Autorização de Débito
+				> Emissão
+				> Reemissão
+				> Cancelamento
+				> Baixa
+				> Estorno
+			> Adiantamento para Fornecedor
+			> Aprovação de Dados Bancários
+			> Revisão de Pagamentos
+			
+		> Consultas
+			> Consulta por Fornecedores
+			> Contas a Pagar
+			> Documentos Pendentes
+			
+		> Relatórios
+			> Cadastro
+				> Documentos em Aberto
+				> Documentos Baixados
+				> Documentos do Fornecedor
+				> Documentos por Centro de Custo
+				> Resumo em Aberto
+				> Código Receita
+				> Aut. Débito em Aberto
+				> Follow-Up
+				> Adiantamentos de Fornecedor
+		
+		> Ferrramentas
+			> Rotinas de Apoio
+			> Ajuda
+			> Habilitar Menu
+			> UniSolution eMail
+			> Sobre o Contas a Pagar
+			
+	> Mov. Bancária
+		> Cadastros
+			> Conta Corrente
+			> Classificação Financeira
+			> Previsão Orçamentária
+				> Previsão por Classificação Financeira
+				> Lançamentos para Previsão
+			> Cotações
+			> Bancos
+			> Tabelas
+				> Configuração Arquivo Cnab
+				> Configuração Arquivo Cpg
+				> Ocorrências na Transmissão Cnab
+				> Ocorrências na Transmissão Cpg
+			> Sair Ctrl+X
+			
+		> Movimentos
+			> Conta Corrente
+				> Movimentação de Conta Corrente
+				> Transferência entre Contas
+			> Transmissão Bancária
+				> Remessa de Títulos Cnab
+				> Retorno de Arquivo Cnab
+				> Consulta Retorno Cnab
+			> Transmissão Cpg
+				> Remessa Cpg
+				> Retorno Cpg
+			> Bôrdero Bancário
+				> Emissão
+				> Reemissão 
+				> Alteração
+			> Cheques
+				> Emissão de Cheque
+				> Reemissão de Cheque
+				> Cancelamento de Cheque
+				> Exclusão de Cheque
+				> Cópia de Cheque
+			> Aviso de Lançamento
+			
+		> Consultas
+			> Consulta Movimentação
+			> Consulta Cheques
+			
+		> Relatórios
+			> Cadastro
+				> Cotações
+			> Gerenciais
+				> Fluxo de Caixa
+				> Previsão Orçamentária
+					> Previsão por Classificação Financeira
+					> Pedido x Realizado
+				> Resumo por Classificação Financeira
+					> Diário
+					> Mensal
+				> Demonstrativo por Conta Contábil
+					> Detalhado
+					> Resumido
+				> Aviso de Lançamento Excluído
+			> Movimentos
+				> Cheques Emitidos
+				> Conta Corrente
+					> Extrato de Conta Corrente
+					> Extrato de Conta Corrente Resumido
+					> Conferência de Conta Corrente
+					> Saldos em Conta Corrente
+				> Movimento de Caixa
+					> Movimento de Caixa Diário
+					> Movimento de Caixa Mensal
+					
+		> Ferramentas
+			> Rotinas de Apoio
+				> Configurações
+			> Ajuda
+			> UniSolution eMail
+			> Sobre a Movimentação Bancária
+
+MATERIAIS
+	> Compras
+		> Cadastros
+			> Operações
+			> Permissão para Aprovação
+			> Permissão para Aprovação de Serviços
+			> Fornecedor por Tipo/Grupo
+			> Fornecedor por Grupo Compra
+		> Tabelas
+			> Classificação Fiscal
+			> Condição de Pagamento
+			> Grupo de Compras
+			> Procedência
+			> Tipo de Material 
+			> Tipo de Solicitação
+			> Unidade de Medida
+			> Motivo para Baixa de Solicitação de Compras
+			> Motivo para Baixa de Pedido de Compras
+		> Sair Ctrl + X
+	
+	> Materiais
+		> Cadastros
+			> Materiais
+				> Manutenção do Cadastro
+				> Atualiza Norma de Estoque
+				> Dados da FISPQ
+				> Cadastro de Lotes
+				> Materiais de Emitentes
+			> Lista de Preços
+				> Atualização
+				> Manutenção por Produto
+				> Manutenção por SubGrupo
+			> Preço de Compra
+				> Atualiza Preço Compra
+				> Importa Preço Compra
+			> Estrutura
+				> Manutenção
+				> Substituir Componentes
+				> Fases de Fabricação
+			> Operação
+			> Tabelas
+				> Agrupamento de Material
+				> Aplicação
+				> Classificação Fiscal
+				> Configuração de Etiqueta
+				> Docto. Mov. Estoque
+				> Embalagens
+				> Modelo de Etiqueta
+				> Modelo de Notas
+				> Procedência
+				> Royalties
+				> Séries de Notas
+				> Tabela de Preço
+				> Tipo de Material
+				> Tipo de Ordem Produção
+				> Unidade de Medida
+			> Sair Ctrl + X
+		
+		> Movimentos
+			> Movimentação
+				> Movimentos por Estoque
+				> Movimentos por Explosão
+				> Transferência
+			> Recebimento
+			> Manifestar NF-e
+			> Inventário
+				> Manutenção de Inventário
+				> Importação de Inventário
+				> Ajuste de Estoques
+				> Terceiros
+					> Manutenção de Inventário
+					> Ajuste de Estoque
+				> Inventário Oficial
+					> Geração Inventário
+					> Manutenção Inventário
+			> Terceiros
+				> Manutenção
+				> Baixas
+				> Baixa por Código de Barra
+			> Produção
+				> Ordem Produção
+				> Planejamento Produção
+			> Custo Fixo
+				> por Produto
+				> por Tipo/Grupo
+			> Almoxarifado
+				> Requisição de Materiais
+				> Baixa de Requisição
+				> Devolução de Requisição
+			> Quarentena
+				> Movimento de Notas
+				> Movimentos Manuais
+				> Transferência de Quarentena para Estoque
+				> Transferência de Estoque para Quarentena
+			> Aprovação do Recebimento
+		
+		> Consultas
+			> Consulta de Saldos
+			> Histórico de Compras
+			> Terceiros por Destinatário
+			> Terceiros por Material
+			> Rastreabilidade
+			> Histórico do Lote
+			> Produção Mensal
+		
+		> Relatórios
+			> Cadastro
+				> Lista de Preços
+				> Lista de Preços por Subgrupo
+				> Cadastro de Materiais]
+				> Relatório de Estruturas
+				> Relatório de Componentes
+				> Etiqueta de Produto
+				> Operações
+				> Código de Barras
+			> Gerenciais
+				> Movimentos de Estoque
+				> Lista de Saldos
+				> Kardex
+				> Resumo Mensal
+				> Recebimentos
+				> Posição de Estoques
+				> Análise do Estoque
+				> Saldos por Depósito
+				> Relatório de Consumo
+				> Lista de Necessidades
+				> Saldos por Lote
+			> Inventário
+				> Inventário Oficial
+				> Resumo do Inventário
+				> Relatório de Conferência
+				> Relação de Diferenças
+				> Terceiros
+					> Relatório de Conferência
+					> Relatório de Diferença
+			> Recebimento
+				> Recebimentos por Período
+				> Recebimentos por Material
+				> Recebimentos por Operação
+				> Divergências
+				> Produtos por Fornecedor
+				> Relatório de Qualidade
+				> Acompanhamento de Recebimentos
+			> Movimentos
+				> Curva ABC
+				> Margem por Período
+				> Movimentos por Aplicação
+				> Resumo da Movimentação
+			> Terceiros
+				> Por Destinatário
+				> Por Materiais
+				> Detalhado
+				
+			> Produção
+				> Relatório de Produção
+				> Planejamento Produção
+				> Ordem Liberadas
+				
+			> Quarentena
+				> Movimentos 
+			
+		> Ferramentas
+			> Rotinas de Apoio
+				> Calcula Custo
+				> Agrupar Material
+				> Trocar Material
+				> Configurações
+			> Ajuda
+			> UniSolution eMail
+			> Sobre a Administração de Materiais
+
+		
+FISCAL
+	> Livros Fiscais
+		> Cadastros
+			> Materiais
+			> Operações
+			> Tabelas
+				> Classificação Fiscal
+				> Estados
+				> Procedência
+				> Unidade Medida
+				> Natureza de Operação
+			> Sair Ctrl+X
+
+		> Movimentos
+			> Notas Fiscais
+			> Lançamentos para Icms
+			> Lançamentos para Icms (Compl)
+			> Lançamentos para Ipi
+			> Importação
+			> Arquivo Magnético
+		
+		> Relatórios
+			> Livros Fiscais
+				> Registro de Entradas
+				> Registro de Saidas
+				> Lista de Emitentes
+				> Lista de Materiais
+				> Apuração de Icms
+				> Apuração de IPI
+				> ISS
+				> Registro de Inventário
+			> Livros Armazem
+				> Inventário
+				> Granel Liquido
+				> RAG
+				> Produção e Estoque
+				> Tambores Vazios
+				> Inventário Detalhado
+			> Relatórios
+				> Resumo por CFOP
+				> Lançamentos para Icms
+				> Lançamentos para Ipi
+				> Gia
+				> Notas com Dedução de ICMS
+				> Acompanhamento de Impostos
+				> Notas sem Internamento
+			> Termos
+				> Livros Fiscais
+					> Abertura
+					> Encerramento
+				> Livros Armazem 
+					> Abertura
+					> Encerramento
+					
+		> Ferramentas
+			> Configurações
+				> Configuração do Sistema
+				> Livros Armazem
+			> Rotinas de Apoio
+				> Importar arquivos
+			> Ajuda
+			> UniSolution eMail
+			> Sobre o Livros Fiscais
+	
+	> SPED Fiscal
+		> Cadastros
+			> Terceiros
+			> Bancos
+			> Conta Corrente
+			> Filiais
+			> Operações
+			> Materiais
+			> Produtos Armazenados
+			> Tabelas Cadastro
+				> Paises
+				> Códigos Cnae 
+				> Grupo de Cliente
+				> Estados
+				> Municípios
+			> Tabelas Materiais
+				> Tipo de Material
+				> Unidades
+			> Tabelas Fiscal
+				> Classificação Fiscal
+				> Modelo de Nota
+				> Procedência
+				> Série de Nota
+				> Natureza da Operação
+				> Grupo de Operação Fiscal
+				> Parâmetros SPED
+			> Sair Ctrl+X
+			
+		> Movimentos
+			> Notas de Entrada
+			> Ajuste Escrituração
+			> Lançamentos para ICMS
+			> Lançamentos para IPI
+			> Arquivos Magnéticos
+				> Convenio 57/95 (Sintegra)
+				> Geração DFC
+				> Geração GI
+				> Geração GISS
+				> Geração DIM 
+				> Geração GNRE - Notas com ST 
+				> Geração Nota Fiscal Paulista
+				> Geração RIEX
+				> Geração Sped Fiscal
+				> Geração Sped Fiscal (GIA)
+				> Geração GIAM
+				> Geração DIF
+		
+		> Relatórios
+			> Livros Fiscais
+				> Registro de Entradas
+				> Registro de Saídas
+				> Lista de Emitentes
+				> Lista de Materiais
+				> Apuração de ICMS
+				> Apuração de IPI
+				> Livro ISS
+				> Registro de Inventário (Adm)
+			> Livros Armazém
+				> Inventário
+				> Granel Líquido
+				> Rag
+				> Produção e Estoque
+				> Tambores Vazios
+				> Inventário Detalhado
+			> Relatórios
+				> Resumo por CFOP
+				> Gia
+				> Notas com dedução de Icms
+				> Acompanhamento de Impostos
+				> Notas sem Internamento
+				> Notas Fiscais
+			> Termos
+				> Livros Fiscais
+					> Abertura
+						> Reg. de Entradas
+						> Reg de Saídas
+						> Apuração de ICMS
+						> Apuração de IPI
+					> Encerramento
+						> Reg. de Entradas
+						> Reg de Saídas
+						> Apuração de ICMS
+						> Apuração de IPI
+		> Ferramentas
+			> UniSolution
+			> Ajuda
+			> Configuração
+			> Configuração Storage
+			> Sobre o Sped
+		
+	> SPED Pis/Confins
+		> Cadastros
+			> Empresas
+			> Operações
+			> Classificação Fiscal
+			> Filiais
+			> Situação Tributária Pis
+			> Situação Tributária Cofins
+			> Plano de Contas
+			> Conta Contábil
+			> Sair Ctrl+X
+		
+		> Movimentos
+			> Importar dados da Filial
+			> Ajustes na Escrituração
+			> Manutenção Bloco 0
+				> 0120 - Contribuição Sem Dados a Escriturar
+			> Manutenção Bloco F
+				> F100 - Demais Documentos e Operações Geradoras de Contribuição e Crédito
+				> F120 - Bens Incorporados ao Ativo - Crédito Encargos de Depreciação e Amortização
+				> F130 - Bens Incorporados ao Ativo - Crédito com base no Valor de Aquisição/Contribuição
+				> F600 - Contribuição Retida na Fonte
+			> Manutenção Bloco M
+				> M110 - Ajustes do Crédito de Pis (Despesa)
+				> M510 - Ajustes do Crédito de Cofins (Despesa)
+				> M220 - Ajustes do Débito de Pis (Receita)
+				> M620 - Ajustes do Débito de Cofins (Receita)
+			> Geração Arquivo Sped Pis/Cofins
+			> Geração Arquivo Sped Pis/Cofins - Registro 0120
+			> Lançamentos Filial
+				> A100 - Notas de Saída
+				> F100 - Demais Documentos e Operações Geradoras de Contribuição e Créditos
+				> M110/M510 - Ajustes do Crédito (Despesa)
+				> M220/M620 - Ajustes do Débito (Receita)
+			> Utilização de Créditos Anteriores
+				> Pis
+				> Cofins
+				> Ressarcimento
+			> Gerar Contabilização
+		
+		> Relatórios
+			> Notas Fiscais
+				> Notas por Conta Contábil
+				> Bloco A - Serviços
+			> Apuração
+			> Controle de Créditos
+			
+		> Ferramentas
+			> Rotinas de Apoio
+				> Configurações
+			> Ajuda
+			> UniSolution eMail 
+			> Sobre a Sped Pis/Cofins
+			
+	> Obrigações Acessórias
+		> Cadastros
+			> Navio
+			> Produtos Entorpecentes
+			> ANP
+				> Instalação
+			> Tabelas
+				> Porto
+				> Tipos de Transporte
+			> Sair Ctrl+X
+			
+		> Movimentos
+			> ANP
+				> Geração
+				> Exportação SIMP
+				> Transferência
+					> Importação
+					> Exportação
+			> Presença de Carga
+				> Manutenção
+				> Geração Receita
+				> Geração Despachante
+			> Policia Federal
+				> Compra Entorpecentes
+				> Consumo Entorpecentes
+			> Antaq
+				> Geração
+			> Siscomex Carga
+			> Exército
+				> Mapa de Estocagem
+			> EDI Appa
+			> DU-e
+				> Monitor Recepção CCT
+		
+		> Relatórios
+			> Anp
+				> Demonstrativo ANP
+				> Movimentação ANP (261)
+			> Policia Federal
+			> Receita Federal
+				> IN 106/2000
+					> Situação Por Tanques
+					> Controle de Operações
+					> Movimentos por DI
+					> Ficha por Depósito
+					> Saldos por DI
+				> Entreposto Aduaneiro
+					> Saldos por DA
+					> Saldos por Tanque/DA
+					> Extrato por DA
+					> Extrato por CNPJ
+					> Ficha por DA
+				> Ficha por DDE
+			> Exército
+				> Mapa de Estocagem
+				> Mapa de Selos 
+			> Policia Civil
+			> Histórico DA
+			> Prazo de Permanência
+			> Livros Fiscais
+				> Apuração de ICMS
+			> Consulta Baixo Navio
+			
+		> Ferramentas
+			> Configurações
+			> UniSolution eMail
+			> Habilitar Menu
+			> Ajuda
+			> Sobre o Obrigações Acessórias
+			
+STORAGE
+
+	> Controle
+	> Veículos
+		> Cadastros
+			> Cadastros
+				> Conferente
+				> Inspetoras
+				> Motoristas
+				> Placas
+				> Vagões
+				> Tipo de Documento
+				> Operador
+				> Restrições do Check List
+				> Grupo CIPP
+				> Permissão por Tipo Operação
+			> Planejamento
+				> Planejamento de Cargas
+				> Planejamento de Depositos
+			> Restrições
+				> Motoristas
+				> Placas
+				> Motivos de Bloqueio
+			> Tabelas
+				> Patio
+				> Situação de Veiculos
+				> GL Densidade
+				> GL Temperatura
+				> Motivo Atraso Veiculo
+				> Local de Operação
+				> Cartão Veiculo
+				> Check In
+				> Fluxo Veiculo
+				> Tipo de Veiculo
+				> Tipo de Crachá
+				> Crachá
+				> Tipo de Avaria
+				> Controle Comboio via Email
+				> Local de Transferência
+				> Motivo Refugo Vagão
+				> Balança
+				> Classificadora
+				> Tipo de Carregamento
+				> Itens de Inspeção
+				> Fila
+				> Validação Entrada de Veículo
+				> Local de Inspeção
+			> Sair Ctrl+X
+		> Movimento
+			> Entrada de Veículos
+			> Análise de Veículos
+			> Check List
+			> Conferência
+				> Conferência
+				> Emissão de TFA
+			> Veículo Operacional
+				> Cadastro Operacional
+				> Entrada Recinto
+				> Saída Recinto
+			> Liberação Vagão
+				> Comboio
+				> Conciliação OCR
+			> Justificativa de atraso
+			> Automação
+				> Baixa TAG
+				> Aciona Cancela
+				> Gerenciar Automação
+			> Agendamento de Veículo
+			> Inativar Motoristas
+		> Consulta
+			> Situação de Veículos
+			> Pátio
+			> Planejamento de Carga
+			> Tempo de Operação
+			> Indicador de Performance
+			> Agendamento
+				> Programação de Veículos
+				> Planejamento WEB
+				> Planejamento WEB Total
+				> Situação Planejamento WEB
+			> Caminhão Parado
+				> Caminhão Parado Operação
+				> Caminhão Parado Pátio
+			> Auditoria
+				> Alteração no Planejamento de Depósitos
+				> Operações Canceladas
+			> Integração
+				> Autoload
+		> Relatórios
+			> Entrada de Veículos
+			> Planejamento de Carga
+			> Acompanhamento de Veiculos
+			> Situação dos Veículos
+			> Descarga Inspetora
+			> Resumo por Tipo de Veículo
+			> Programação de Veículos
+			> Relatório de Motoristas
+			> Relatório de Avarias
+			> Movimentação de Veiculos
+			> Movimento Operacional
+			> Relatório de Triagem
+			> Movimentações do Planejamento Web
+			> Grade de Horários do Planejamento Web
+			> Vagões com Falhas do OCR
+			> Vagões Pendentes de Processamento (OCR)
+			> Estatística de Reprovação do Check List
+		> Ferramentas
+			> Rotinas de Apoio
+				> Configurações
+					> Veículos
+					> Balança
+				> Consultar Receitas
+				> Obter Carregamentos
+				> FTP Codesp
+			> Ajuda
+			> Habilitar Menu
+			> UniSolution eMail
+			> Sobre o Controle de Veículos
+	> Balança
+		> Cadastros
+			> Motorista
+			> Navio / Embarcação
+			> Fluxo ALL
+			> Tabelas
+			> Lista de Restrições
+			> Tabelas OCR
+		> Descargas
+			> Autorização de Operação
+			> Liberação de Veículos
+			> Outras Descargas
+				> Outras Descargas
+				> Descargas Ferroviárias
+				> Requisição de Descarga
+			> Manutenção de Descargas
+			> Remissão Autorização
+			> Reemissão ticket
+			> Consulta Descargas
+			> Desmembrar Autorização
+		> Cargas
+			> Requisição de Carga
+			> Liberação de Requisição
+			> Autorização de Operação
+			> Liberação de Veículos
+			> Outras Carga
+			> Observações p/ Nota
+			> Notas Fiscais
+			> Nota Complementar
+			> Reemissão Autorização
+			> Reemissão ticket
+			> Consulta Cargas
+			> Manutenção de Cargas
+			> Integra Rumo (ALL)
+		> Movimentos
+			> Operações com Terceiros
+				> Pesagem Descarga
+				> Liberação de Descarga
+				> Pesagem Carga
+				> Liberação Carga
+			> Movimentação Balança
+				> Movimentação
+				> Transferência
+				> Transferência Simbólica
+				> Transferência Lote
+			> Movimento Operacional
+				> Carga
+					> Cargas Operacionais
+					> Liberação de Carga Operacional
+				> Descarga
+					> Descargas Operacionais
+					> Liberação de Descarga Operacional
+				> Descarga Direta
+					> Descargas Direta
+					> Liberação de Descarga Direta
+				> Autorização Saída
+			> Pesagem de Fluxo
+			> Guia de Tráfego
+			> Automação
+				> Ajusta Fotos
+				> OCR Teste
+		> Relatórios
+			> Descargas
+				> Relatorio de Descargas
+				> Descargas por Periodo
+				> Descargas por Lote
+				> Descargas por Nota
+				> Controle de Amostras
+				> Tempo de Operação (Descarga)
+				> Relatorio de Pesagem - Descarga
+				> Terno de Descarga
+			> Cargas
+				> Relatorio de Cargas
+				> Relatorio de Cargas por Volume
+				> Cargas por Lote
+				> Cargas por Periodo
+				> Controle de Amostras
+				> Tempo de Operação (Carga)
+				> Relatorio de Pesagem - Cargas
+				> Movimentação de Veiculos
+			> Movimentação Balança
+				> Movimentos por Tanque - Balança
+				> Movimentação Mensal
+				> Comparação Balança
+				> Demonstrativo de Perdas e Sobras
+				> Movimentos por Cliente/Produto - Balança
+				> Saldos por Cliente/Produto - Balança
+			> Controle a 20
+				> Movimentação a 20
+				> Cert. Arqueação Cargas Liquidas
+				> Resumo Mensal
+				> Ficha de Controle de Tanque
+				> Desmonstrativo por Tanque
+				> Resumo por Produto
+				> Demonstrativo Receita Federal
+				> Controle Pool
+			> Histórico Cliente/Produto
+			> Pesagem de Terceiros
+			> Controle de Acesso Motoristas
+			> Consumo N2
+			> Saldos Pesagem
+			> Dados de Pesagem
+			> Gerenciais
+				> Log Balança
+				> Tempos do Terminal
+				> Pesagens Efetuados
+				> Acompanhamento de Pesagem
+			> Controle Operações c/ Veiculos
+			> Movimentos por Plataforma
+			> Integração Ocr
+				> Consulta Acuracidade
+				> Relatório Acuracidade
+				> Relatório de Falhas
+			> Nota de Cobertura
+			> Log Automação
+		> Ferramentas
+			> Rotinas de Apoio
+				> Recuperar Nota de Saida
+				> Alterar Observação da Nota
+				> Alterar Data da Nota
+				> Configurações
+				> Ajustar Recibo NF-e (Danfe)
+			> Ajuda
+			> Habilitar Menu
+			> UniSolution eMail
+			> Sobre o Módulo Balança
+	
+	> Estoque Físico
+		> Cadastros
+			> Tanques
+			> Outros Depósitos
+			> Arqueações
+			> Densidade por Tanque
+			> Densidade Corrigidas
+			> Densidades por Produto
+			> Tabelas
+				> Material de Construção
+				> Revestimento
+				> Localização
+			> Lançamento de Densidade
+			
+		> Movimentos
+			> Lançamento Estoque Físico
+			> Lançamento Outros Depósitos
+			> Medições
+			> Movimento Físico
+		
+		> Relatórios
+			> Cadastros
+				> Tanques
+				> Outros Depósitos
+				> Densidade por Tanque
+				> Densidade Corrigidas
+				> Densidades por Produto
+				> Arqueações
+				> Controle de Poluição
+				> Tabela de Referência
+			
+			> Movimentos
+				> Relatório de Estoque Físico
+				> Movimentação Diária
+				> Análise das Arqueações
+				> Medições Periodicas
+				> Controle Físico
+				> Posição Estoque Físico
+				> Medições por Período
+				> Medição Mensal
+				> Kardex Físico
+				
+			> Controle a 20
+				> Movimentação a 20
+			
+		> Consultas
+			> GRadar
+			
+		> Ferramentas
+			> Rotinas de Apoio
+				> Memória de cálculo
+				> Interpolação
+				> Configurações
+			> UniSolution eMail
+			> Habilitar Menu
+			> Ajuda
+			> Sobre Estoque Físico
+			
+	> Consultas
+		> Consultas
+			> Consulta Saldos
+			> Consulta Navio Viagem
+			> Histórico de Lotes
+			> Consulta Situação de Notas
+			> Consulta OSG
+			> Consulta Descargas
+			> Consulta Cargas
+			> Detalhamento de Lotes
+			> Consulta Nota/Autorização
+			> Autorizações Excluídas
+			> Consulta Movimentação
+			> Consulta de Saldo Por Lote
+			> Sair Ctrl+X
+	
+		> Gráficos
+			> Saldos por Dia
+			> Movimentação de Veículos
+			> Movimentação de Veículos por horário
+			> Movimentação de Produtos por dia
+			> Posição Depósitos
+		
+		> Veículos
+			> Consulta Situação de Veículos
+			> Tempo de Operação
+			> Consulta por Placa
+			> Histórico Mov Veiculos
+				> por Veículo
+				> por Transportador
+				> por Motorista
+				> Veículos em aberto
+				
+		> Relatórios
+			> Relatório Gerencial
+			
+		> Sobre
+			> UniSolution eMail
+			> Habilitar Menu
+			> Ajuda
+			> Sobre o Módulo Consultas
+		
+	> Operação
+		> Cadastros
+			> Cadastros
+				> Equipamentos
+				> Configuração de Alinhamento
+				> Operador
+				> Pier
+				> Porto
+			> Tabelas
+				> Lacre
+					> Série Lacres
+					> Cor Lacres
+					> Lotes Lacres
+				> Estrutura de Laudo
+				> Formulários Laudo
+				> Horário Operacional
+				> Status do Navio
+				> Tipos de Laudo
+				> Tipos de Draft
+				> Tipo de Qualidade
+				> Despesas Relacionadas de Embarque
+				> Taxa de Embarque por Grupo
+				> Tipo de Linha
+			> Navio/Embarcação
+			> Sair Ctrl+X
+			
+		> Movimentos
+			> Programação de Navio
+				> Manutenção
+				> Status do Navio
+			> Movimentação do Navio
+				> Pier - Plano de Operação
+				> Pier - Operação do Navio
+				> Pier - Ship-to-Ship
+				> Terra - Medição Navio
+				> Terra - Veículos Operados
+				> Terra - Drenagem
+				> Terra - Cálculo de Altura para Corte
+				> Terra - Alinhamento de Tanque
+			> Transferência
+				> Transferência/Drenagem entre Tanques
+				> Medição Transferência
+				> Drenagem
+				> Veículos Operados
+			> Controle Pátio
+				> Alinhamento de Plataforma
+			> Operação Ferroviária
+				> Carga
+					> Check List
+					> Operação Vagão
+				> Descarga
+			> Pesagem Fluxo
+		
+		> Relatórios
+			> Cadastro
+				> Equipamentos
+				> Alinhamento
+			> Navios
+				> Programação Navios
+				> Emissão de Laudo
+				> Movimentação de Navios
+				> Laudos por Período
+				> Controle de Descargas
+				> Saldos para Exportação
+			> Transferência
+				> Emissão do Laudo
+				> Transferências entre Tanques
+			> Rastreabilidade
+				> Equipamentos
+				> Tanques
+				> Horas De Uso
+			> Gerenciais
+				> Consumo de N2
+				> Saldos para Embarque
+				> Controle de Embarque Diário
+				> Relatório de Paradas
+				> Relatório de Ternos de Estiva
+				> Embarques Efetuados
+				> Relatório de Produção
+				> Embarques por Cliente
+				> Relatório de Exportação
+		
+		> Consultas
+			> Consulta Laudo
+			> Tempo de Bombeamento
+			> Acompanhamento Embarque
+			> Acompanhamento Navio
+			> Monitoramento de Navio
+			> Controle de Operação
+			> Painel de Integração Due
+			
+		> Ferramentas
+			> Rotinas de Apoio
+				> Configurações
+			> UniSolution eMail
+			> Habilitar Menu
+			> Ajuda
+			> Sobre o Módulo Operação
+			
+	> Comercial
+		> Cadastros
+			> Contratos
+				> Cadastro de Contratos
+				> Aprovação de Contra
+			> Infoc
+			> Cadastros
+				> Cotações
+				> Etiquetas
+				> Operações
+				> Serviços
+			> Tabelas
+				> Condição de Pagamento
+				> Tipo de Contrato
+				> Tipo de Período
+			> Sair Ctrl+X
+			
+		> Movimento
+			> Pedidos
+				> Manutenção de Pedidos
+				> Geração Faturamento
+				> Aprovação de Pedidos
+			> Notas Fiscais
+				> Pré-Nota
+				> Emissão
+				> Reemissão
+				> Cancelamento
+			> Impressão
+				> Boletos
+				> Duplicatas
+				> Memória Cálculo
+				> Etiquetas de Faturamento
+			> Movimentação de Navio
+			> Aviso de Lançamento
+			> Nota Fiscal Eletrônica
+				> Processar RPS
+				> Emissão NFSe (Serviço)
+				> Substituir RPS
+			> Invoices
+			> Contas a Receber
+			
+		> Consulta
+			> Consulta Nota Fiscal
+			> Contratos para Geração
+			> Histórico N2 - Consumo
+			> Histórico do Contrato
+			> Posição dos Contratos
+			> Tancagem
+			
+		> Relatórios
+			> Contratos
+			> Faturamento de Armazenagem
+			> Faturamento por Tipo de Serviço
+			> Cobrança de Fundaf
+			> Posição Financeira
+			> Pedidos para Faturamento 
+			> Gerenciais
+			> Faturamento
+			> Análise
+			
+		> Ferramentas
+			> Rotinas de Apoio
+				> Alterar dados da Nota
+				> Alterar Observação da Nota
+				> Alterar Depósitos da Nota
+				> Configurações
+			> Ajuda
+			> Habilitar Menu
+			> UniSolution eMail
+			> Sobre o Comercial
+	
+ESPECÍFICOS
+
+		
+OUTROS IMPORTANTES
+
+________________________________________________________________________________________________________________________________________________________________
+
+-> Certificado para CCT só pode ser do tipo A1.
+_____________________________________________________________________________________________________________________
+
+VOPAK ALEMOA - BAIXA EM UMA ORDEM DE SERVIÇO QUE JÁ FOI EMITIDA NOTA FISCAL
+
+-> Verificar a Requisição através da placa da ordem de serviço (específicos)
+-> Verificar se a Nota Fiscal emitida baixou todo o saldo da Autorização
+
+select * from WebStoPlanejaVeiculo where regplaneja = 731328137
+
+select PesoAut, BPesoAut, VolumeCorrigido, BLitros,* from OpCarga where autorizacao = 463445
+
+update OpCarga set BPesoAut = PesoAut, BLitros = VolumeCorrigido where Autorizacao = 463445
+
+update EntradaVeiculo set codsitveiculo = 1090 where RegControle = 203398 
+
+update EntradaVeiculoItem set codsitveiculo = 1090 where RegControle = 203398 
+_____________________________________________________________________________________________________________________
+
+BDE - Erro na conexão com o banco de dados (ERRO AO ABRIR MÓDULOS)
+
+Caminho: C:\Program Files (x86)\Common Files\Borland Shared\BDE 
+
+>Native
+	>PARADOX
+			BLOCK SIZE = + 1024 (GERALMENTE 4096 + 1024 = 5120)
+
+>System
+	> INIT
+			MAXBUFFSIZE = + 1024 (GERALMENTE 4096)
+			SHAREDMEMSIZE = + 1024 (GERALMENTE 4096)
+			SHAREDMEMLOCATION = 7F00
+_____________________________________________________________________________________________________________________
+
+PROBLEMAS COM CERTIFICADO DIGITAL
+
+OPÇÕES DA INTERNET > AVANÇADAS > VERIFICAR REVOGAÇÃO DE CERTIFICADOS DO SERVIDOR (DESMARCAR E TESTAR)
+_____________________________________________________________________________________________________________________
+
+
+
+
+
+
